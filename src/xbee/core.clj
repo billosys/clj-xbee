@@ -1,6 +1,4 @@
-(ns xbee.core)
+(ns xbee.core
+  (import (com.digi.xbee.api Version)))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(def version Version/CURRENT_VERSION)

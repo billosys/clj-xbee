@@ -1,7 +1,6 @@
 (ns xbee.core-test
   (:require [clojure.test :refer :all]
-            [xbee.core :refer :all]))
+            [xbee.core :as xbee]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest version
+  (is (= "1.2.1" xbee/version)))
