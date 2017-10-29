@@ -6,4 +6,5 @@
     :url "https://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [
     [com.digi.xbee/xbee-java-library "1.2.1"]
-    [org.clojure/clojure "1.8.0"]])
+    [org.clojure/clojure "1.8.0"]
+    [potemkin "0.4.4"]])
