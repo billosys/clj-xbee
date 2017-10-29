@@ -1,4 +1,4 @@
-(defproject clj-xbee "0.1.0-SNAPSHOT"
+(defproject systems.billo/clj-xbee "0.1.0-SNAPSHOT"
   :description "Clojure Wrapper for Digi's Official XBee Java Library"
   :url "https://github.com/billosys/clj-xbee"
   :license {
