@@ -1,5 +1,5 @@
 (ns xbee.models.core
-  (import (com.digi.xbee.api.models XBeeProtocol)))
+  (:import (com.digi.xbee.api.models XBeeProtocol)))
 
 (def protocols
   {:cellular XBeeProtocol/CELLULAR
