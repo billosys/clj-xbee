@@ -11,7 +11,8 @@
     :name "Apache License Version 2.0"
     :url "https://www.apache.org/licenses/LICENSE-2.0"}
   :exclusions [
-    [org.clojure/clojure]]
+    [org.clojure/clojure]
+    [org.rxtx/rxtx]]
   :dependencies [
     [com.digi.xbee/xbee-java-library "1.2.1"]
     [org.clojure/clojure "1.8.0"]
