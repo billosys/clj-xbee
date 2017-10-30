@@ -68,6 +68,7 @@ Get some basic device info:
 ## License
 
 Copyright © 2017, Billo Systems, Ltd. Co.
+Copyright © 2017, Duncan McGreggor
 
 Distributed under the Apache License Version 2.0.
 
