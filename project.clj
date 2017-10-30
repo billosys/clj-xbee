@@ -11,8 +11,7 @@
     :name "Apache License Version 2.0"
     :url "https://www.apache.org/licenses/LICENSE-2.0"}
   :exclusions [
-    [org.clojure/clojure]
-    [org.rxtx/rxtx]]
+    [org.clojure/clojure]]
   :dependencies [
     [com.digi.xbee/xbee-java-library "1.2.1"]
     [org.clojure/clojure "1.8.0"]
@@ -27,6 +26,7 @@
       :source-paths ["dev-resources/src"]
       :dependencies [
         [clojusc/trifl "0.2.0"]
+        [clojusc/twig "0.3.2"]
         [org.clojure/tools.namespace "0.2.11"]]}
     :test {
       :plugins [
@@ -37,7 +37,7 @@
         [venantius/yagni "0.1.4"]]}}
   :aliases {
     "repl"
-      ["with-profile" "+test,+custom-repl" "repl"]
+      ["with-profile" "+test,+custom-repl,+dev" "repl"]
     "check-deps"
       ^{:doc (str "Check if any deps have out-of-date versions")}
       ["with-profile" "+test" "ancient" "check" ":all"]
