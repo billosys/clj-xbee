@@ -9,5 +9,4 @@ env:
   - LEIN_SNAPSHOTS_IN_RELEASE=true
 notifications:
   email:
-      - bjorn@billo.systems
-
+    - bjorn@billo.systems
