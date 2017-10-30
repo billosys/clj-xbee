@@ -5,7 +5,7 @@
 [![Tag][tag-badge]][tag]
 [![Clojure version][clojure-v]](project.clj)
 
-[![][logo]][logo]
+[![][logo]][logo-large]
 
 *Clojure Wrapper for Digi's Official XBee Java Library*
 
@@ -28,7 +28,8 @@ Distributed under the Apache License Version 2.0.
 [travis-badge]: https://travis-ci.org/billosys/clj-xbee.png?branch=master
 [deps]: http://jarkeeper.com/billosys/clj-xbee
 [deps-badge]: http://jarkeeper.com/billosys/clj-xbee/status.svg
-[logo]: resources/images/Xbee.png
+[logo]: resources/images/Xbee-small.png
+[logo-large]: resources/images/Xbee.png
 [tag-badge]: https://img.shields.io/github/tag/billosys/clj-xbee.svg
 [tag]: https://github.com/billosys/clj-xbee/tags
 [clojure-v]: https://img.shields.io/badge/clojure-1.8.0-blue.svg
