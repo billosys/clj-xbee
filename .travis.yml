@@ -1,0 +1,13 @@
+language: clojure
+lein: 2.7.1
+script:
+  - lein build
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+env:
+  - LEIN_SNAPSHOTS_IN_RELEASE=true
+notifications:
+  email:
+      - bjorn@billo.systems
+
