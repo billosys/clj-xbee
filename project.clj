@@ -14,8 +14,8 @@
     [org.clojure/clojure]]
   :dependencies [
     [com.digi.xbee/xbee-java-library "1.2.1"]
-    [org.clojure/clojure "1.8.0"]
-    [potemkin "0.4.4"]]
+    [org.clojure/clojure "1.9.0"]
+    [potemkin "0.4.5"]]
   :profiles {
     :ubercompile {:aot :all}
     :custom-repl {
@@ -30,10 +30,10 @@
         [org.clojure/tools.namespace "0.2.11"]]}
     :test {
       :plugins [
-        [lein-ancient "0.6.14"]
+        [lein-ancient "0.6.15"]
         [jonase/eastwood "0.2.5"]
-        [lein-bikeshed "0.5.0" :exclusions [org.clojure/tools.namespace]]
-        [lein-kibit "0.1.5"]
+        [lein-bikeshed "0.5.1" :exclusions [org.clojure/tools.namespace]]
+        [lein-kibit "0.1.6"]
         [venantius/yagni "0.1.4"]]}}
   :aliases {
     "repl"
