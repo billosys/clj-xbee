@@ -27,7 +27,7 @@ $ sudo usermod -a -G dialout `whoami`
 
 ## Usage
 
-Create an open a device.
+Create and open a device.
 
 Note that the passed device type will depend upon what type of radio you have.
 If we haven't wrapped the Java API for your particular XBee radio, just submit
