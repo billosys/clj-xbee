@@ -75,7 +75,7 @@ a new ticket and we'll get that done for you.
 To get started, your project will need to include the dependency. For `lein`:
 
 ```clj
-[systems.billo/clj-xbee "0.1.0-SNAPSHOT"]
+[systems.billo/clj-xbee "0.2.0-SNAPSHOT"]
 ```
 
 Then, in your `ns` setup, `require` the following:
@@ -137,7 +137,7 @@ Distributed under the Apache License Version 2.0.
 [logo-large]: resources/images/Xbee.png
 [tag-badge]: https://img.shields.io/github/tag/billosys/clj-xbee.svg
 [tag]: https://github.com/billosys/clj-xbee/tags
-[clojure-v]: https://img.shields.io/badge/clojure-1.8.0-blue.svg
+[clojure-v]: https://img.shields.io/badge/clojure-1.9.0-blue.svg
 [jdk-v]: https://img.shields.io/badge/jdk-1.7+-blue.svg
 [clojars]: https://clojars.org/systems.billo/clj-xbee
 [clojars-badge]: https://img.shields.io/clojars/v/systems.billo/clj-xbee.svg

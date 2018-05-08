@@ -4,7 +4,7 @@
        ns
        "\u001B[35m]\u001B[33m λ\u001B[m=> "))
 
-(defproject systems.billo/clj-xbee "0.1.0-SNAPSHOT"
+(defproject systems.billo/clj-xbee "0.2.0-SNAPSHOT"
   :description "Clojure Wrapper for Digi's Official XBee Java Library"
   :url "https://github.com/billosys/clj-xbee"
   :license {
