@@ -67,12 +67,6 @@ converter, i.e., the "XBee Explorer" -- not the XBee radio itself.
 
 ## Usage
 
-Create and open a device.
-
-Note that the passed device type will depend upon what type of radio you have.
-If we haven't wrapped the Java API for your particular XBee radio, just submit
-a new ticket and we'll get that done for you.
-
 To get started, your project will need to include the dependency. For `lein`:
 
 ```clj
@@ -85,7 +79,7 @@ Then, in your `ns` setup, `require` the following:
 [xbee.device.core :as xbee]
 ```
 
-Example usage from the clj-xbee development REPL:
+Create and open a device:
 
 ```clj
 [xbee.dev] λ=> (def d (xbee/create-device :raw802 "/dev/ttyUSB0" 9600))
@@ -93,6 +87,10 @@ Example usage from the clj-xbee development REPL:
 [xbee.dev] λ=> (xbee/open d)
 nil
 ```
+
+Note that the passed device type will depend upon what type of radio you have.
+If we haven't wrapped the Java API for your particular XBee radio, just submit
+a new ticket and we'll get that done for you.
 
 If you get warnings about minor version mismatches, you can disregard.
 
