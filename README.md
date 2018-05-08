@@ -14,6 +14,7 @@
 * Dependencies
 * Setup
 * Usage
+* Resources
 * License
 
 
@@ -118,6 +119,11 @@ Get some basic device info:
 ```
 
 
+## Resources
+
+* [XBee Java Library User Guide][javaguide]
+* [XBee Java Library API Reference (Javadocs)][javadocs]
+
 ## License
 
 Copyright © 2017, Billo Systems, Ltd. Co.
@@ -141,3 +147,5 @@ Distributed under the Apache License Version 2.0.
 [jdk-v]: https://img.shields.io/badge/jdk-1.7+-blue.svg
 [clojars]: https://clojars.org/systems.billo/clj-xbee
 [clojars-badge]: https://img.shields.io/clojars/v/systems.billo/clj-xbee.svg
+[javadocs]: http://ftp1.digi.com/support/documentation/xbjlib/javadoc/javadoc_1.2.1/
+[javaguide]: https://www.digi.com/resources/documentation/digidocs/90001438/
