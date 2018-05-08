@@ -16,8 +16,7 @@
   :dependencies [
     [com.digi.xbee/xbee-java-library "1.2.1"]
     [org.clojure/clojure "1.9.0"]
-    [org.slf4j/slf4j-api "1.7.25"]
-    [potemkin "0.4.5"]]
+    [org.slf4j/slf4j-api "1.7.25"]]
   :profiles {
     :ubercompile {:aot :all}
     :custom-repl {
