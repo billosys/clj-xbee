@@ -6,7 +6,7 @@
     [clojure.string :as string]
     [clojure.tools.namespace.repl :as repl]
     [clojure.walk :refer [macroexpand-all]]
-    ;[clojusc.twig :as logger]
+    [clojusc.twig :as logger]
     [trifl.java :refer [show-methods]]
     [xbee.device.core :as xbee]
     [xbee.device.impl.abstract :as abstract-impl]
@@ -16,7 +16,7 @@
 
 ;;; Setup
 
-;(logger/set-level! '[xbee com.digi] :info)
+(logger/set-level! '[xbee com.digi] :info)
 
 ;;; Aliases
 
