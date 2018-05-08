@@ -8,10 +8,10 @@
     [clojure.walk :refer [macroexpand-all]]
     ;[clojusc.twig :as logger]
     [trifl.java :refer [show-methods]]
-    [xbee.device.core :as device-core]
-    [xbee.device.impl.abstract :as abstract]
-    [xbee.device.impl.raw802 :as raw802]
-    [xbee.device.impl.xbee :as xbee]
+    [xbee.device.core :as xbee]
+    [xbee.device.impl.abstract :as abstract-impl]
+    [xbee.device.impl.raw802 :as raw802-impl]
+    [xbee.device.impl.xbee :as xbee-impl]
     [xbee.models.core :as models]))
 
 ;;; Setup
