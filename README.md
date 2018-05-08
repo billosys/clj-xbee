@@ -9,21 +9,36 @@
 
 *Clojure Wrapper for Digi's Official XBee Java Library*
 
-## Setup
+#### Contents
 
-You will need to install the native rxtx serial library: this is easiest with
-Linux. For example, with Ubuntu, all you need to do is:
+* Dependencies
+* Setup
+* Usage
+* License
+
+
+## Dependencies
+
+You will need to install the native rxtx serial library. We have not found a
+consistently good developer experience for this on modern Macs, so we are
+recommending that developers use Linux for this.
+
+For example, with Debian-based systems, to install both rxtx and rxtx-native,
+you just need to do this:
 
 ```
 $ sudo apt-get install librxtx-java
 ```
 
 In order to access the serial port as non-root, you will need to add yourself
-to the group that owns the device. In most cases, this is the `dialout` group:
+to the group that owns the device. On Ubuntu, this is the `dialout` group:
 
 ```
 $ sudo usermod -a -G dialout `whoami`
 ```
+
+
+## Setup
 
 Once your XBee radio is plugged in, you can find the device file by doing the
 following:
@@ -32,16 +47,21 @@ following:
 $ dmesg
 ```
 
-and looking for the recent line that mentions "FTDI USB Serial Device
-converter"; the message will also give the relative device path, e.g.,
-`ttyUSB0`. You can confirm that this is the correct device by this:
+and looking for the recent line that comes up mentioning a USB serial device;
+the message will also give the relative device path, e.g.:
+
+```
+[518497.515732] usb 1-1.3: FTDI USB Serial Device converter now attached to ttyUSB0
+```
+
+You can confirm that this is the correct device by this:
 
 ```
 $ udevadm info -q all /dev/ttyUSB0
 ```
 
 Note that the device info you'll be seeing is for the USB Serial-to-USB
-converter, i.e., the "XBee Explorer".
+converter, i.e., the "XBee Explorer" -- not the XBee radio itself.
 
 
 ## Usage
